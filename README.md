@@ -1,3 +1,8 @@
+##工具
+[Git](https://git-scm.com/download)
+[Flyway](https://flywaydb.org/getstarted/firststeps/maven)
+
+
 ## 脚本
 ```sql
 create table user
@@ -11,6 +16,8 @@ create table user
 	constraint table_name_pk
 		primary key (id)
 );
-
-
 ```
+```bash
+mvn flyway:migrate
+```
+
