@@ -1,7 +1,7 @@
 ##工具
 [Git](https://git-scm.com/download)
 [Flyway](https://flywaydb.org/getstarted/firststeps/maven)
-
+[Lombok](https://projectlombok.org/setup/maven)
 
 ## 脚本
 ```sql
@@ -22,5 +22,5 @@ mvn flyway:migrate
 ```
 
 
-##网站
+##资料
 [bootstrap](https://v3.bootcss.com/)

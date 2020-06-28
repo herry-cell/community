@@ -1,35 +1,15 @@
 package life.sgldts.community.dto;
 
+import lombok.Data;
+
 /**
  * @author herry
  * @create 2020-06-26-17:38
  */
+@Data
 public class GithubUser {
     private String name;
     private Long id;
     private String bio;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getBio() {
-        return bio;
-    }
-
-    public void setBio(String bio) {
-        this.bio = bio;
-    }
+    private String avatar_url;
 }
