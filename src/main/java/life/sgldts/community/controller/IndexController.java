@@ -1,6 +1,5 @@
 package life.sgldts.community.controller;
 
-import jdk.nashorn.internal.parser.Token;
 import life.sgldts.community.mapper.UserMapper;
 import life.sgldts.community.model.User;
 import org.springframework.beans.factory.annotation.Autowired;

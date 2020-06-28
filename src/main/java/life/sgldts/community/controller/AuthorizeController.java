@@ -1,6 +1,5 @@
 package life.sgldts.community.controller;
 
-import com.sun.org.apache.bcel.internal.classfile.Code;
 import life.sgldts.community.dto.AccessTokenDTO;
 import life.sgldts.community.dto.GithubUser;
 import life.sgldts.community.mapper.UserMapper;
@@ -54,7 +53,7 @@ public class AuthorizeController {
         String accessToken = githubProvider.getAccessToken(accessTokenDTO);
         GithubUser githubUser = githubProvider.getUser(accessToken);
         System.out.println(githubUser.getName());
-        if (githubUser != null) {
+        if (githubUser != null && githubUser.getId() != null) {
             User user = new User();
             String token = UUID.randomUUID().toString();
             user.setToken(token);
