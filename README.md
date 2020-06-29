@@ -1,4 +1,4 @@
-##工具
+## 工具
 [Git](https://git-scm.com/download)
 [Flyway](https://flywaydb.org/getstarted/firststeps/maven)
 [Lombok](https://projectlombok.org/setup/maven)
@@ -22,6 +22,6 @@ mvn flyway:migrate
 ```
 
 
-##资料
+## 资料
 [bootstrap](https://v3.bootcss.com/)
 [elasticsearch](https://elasticsearch.cn/)
