@@ -25,4 +25,4 @@ mvn flyway:migrate
 ## 资料
 [bootstrap](https://v3.bootcss.com/)
 [elasticsearch](https://elasticsearch.cn/)
-[interceptor](https://docs.spring.io/spring/docs/5.0.3.RELEASE/spring-framework-reference/web.html#mvc-config-interceptors)
+[springmvc-interceptor](https://docs.spring.io/spring/docs/5.0.3.RELEASE/spring-framework-reference/web.html#mvc-config-interceptors)
